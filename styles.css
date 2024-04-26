@@ -75,7 +75,7 @@ ul li {
     display: inline-block;
     margin: 0 24px;
     padding: 8px 20px;
-    background-color: rgba(0, 0, 0, 0.774);
+    background-color: rgba(0, 0, 0, 0.774)  ;
     border-radius: 80px;
     box-shadow: 0px 2px 10px rgba(247, 179, 123, 0.623);
     font-size: 17px;
@@ -101,7 +101,6 @@ ul li:hover a {
 
 
 
-
 .search-container {
     display: flex;
     align-items: center;
@@ -112,9 +111,9 @@ ul li:hover a {
     background-color: black; 
 
 
-  }
+}
   
-  .search-input {
+.search-input {
     flex: 1;
     margin-left: -30px;
     
@@ -124,20 +123,20 @@ ul li:hover a {
     outline: none;
     background-color: rgb(0, 0, 0); 
     color: white; 
-  }
+}
   
-  .search-button {
+.search-button {
     padding: 10px 13px;
     border: none;
     border-radius: 60px;
     background-color: rgb(66, 53, 95); 
     color: rgb(255, 255, 255);
     outline: none;
-  }
+}
   
-  .search-button:hover {
+.search-button:hover {
     background-color: rgb(235, 18, 18); 
-  }
+}
   
 
 
@@ -173,7 +172,7 @@ ul li:hover a {
 
 body {
 
-    background: linear-gradient(200deg, #000000,black,black,black,black, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.61));
+    background-color: #000000;
     min-height: 100vh; 
     margin: 0;
     padding: 0;
