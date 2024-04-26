@@ -173,7 +173,7 @@ ul li:hover a {
 
 body {
 
-    background: linear-gradient(200deg, #000000,black,black,black,black, rgba(91, 44, 123, 0.842), rgba(0, 0, 0, 0.61));
+    background: linear-gradient(200deg, #000000,black,black,black,black, rgba(0, 0, 0, 0.842), rgba(0, 0, 0, 0.61));
     min-height: 100vh; 
     margin: 0;
     padding: 0;
@@ -184,7 +184,7 @@ body {
 }
 
 
-.container-related-products h2 {
+.container-related-products h1 {
 	text-align: center;
 	margin-bottom: 30px;
 	color: white;
@@ -213,9 +213,11 @@ body {
 }
 
 .info-card {
-	display: flex;
-	justify-content: space-between;
-
+    display: flex;
+	justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
 .text-product {
@@ -309,4 +311,5 @@ body {
         grid-gap:30px;
         padding: 35px 0px;
     }
+
 }
