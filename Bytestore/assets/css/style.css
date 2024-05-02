@@ -125,7 +125,7 @@ html {
 body {
   background: var(--white);
   font-size: 1.6rem;
-  padding-block-start: 90px;
+
 }
 
 ::-webkit-scrollbar { width: 10px; }
@@ -369,7 +369,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 0 2%;
-    background-color: rgb(55, 74, 245)
+    background-color: rgb(43, 43, 43)
    
 }
 
@@ -719,7 +719,9 @@ color: white; }
 \*-----------------------------------*/
 
 .footer { font-family: var(--ff-roboto); }
-
+.footer {
+  max-width: 80vw;
+}
 .footer-top { background: var(--cultured); }
 
 .footer-brand {
